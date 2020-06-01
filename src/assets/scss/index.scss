@@ -1,0 +1,29 @@
+@import "normalize";       // api: https://github.com/necolas/normalize.css/
+@import "variables";       // 站点变量
+@import "base";
+.el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev, .el-pagination.is-background .el-pager li{
+  position: relative;
+  padding: 6px 12px;
+  line-height: 1.42857;
+  text-decoration: none;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  margin-left: -1px;
+  width: 31px;
+  height: 31px;
+  line-height: 31px;
+  padding: 0;
+}
+.el-pager li.btn-quicknext, .el-pager li.btn-quickprev {
+  border: none !important;
+
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #B71F6A;
+  color: #fff;
+}
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+  background-color: #B71F6A;
+  color: #fff;
+}
